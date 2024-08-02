@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3D Model Viewer</title>
+    <script src="https://efe246123.github.io/path/to/your-model.usdz"></script>
 </head>
 <body>
-    <script>
-        // Sayfa yüklendiğinde model otomatik olarak açılacak
-        window.location.href = "3DModel.usdz";
-    </script>
+    <model-viewer
+        src="https://efe246123.github.io/path/to/your-model.usdz"
+        auto-rotate
+        camera-controls
+        style="width: 100%; height: 100vh;">
+    </model-viewer>
 </body>
 </html>
